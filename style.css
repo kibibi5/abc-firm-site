@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(to right, rgb(219, 220, 238), rgb(143, 145, 158));
+}
+
+.mybuttons {
+  height: 100px;
+  background-color: rgb(24, 66, 184);
+  /* border-top-left-radius: 20px; */
+  border-bottom: 2px;
+}
+.copy {
+  text-align: center;
+  color: white;
+}
+
+.mybuttons-down {
+  height: 20vh;
+  background-color: rgb(24, 66, 184);
+}
+
+input {
+  border-radius: 5px;
+}
+
+.button1 a {
+  text-decoration: none;
+}
+.button1 {
+  border-radius: 5px;
+  font-weight: 900;
+  cursor: pointer;
+  margin-top: 2px;
+  margin-left: 10px;
+  float: right;
+}
+
+.button2 {
+  border-radius: 5px;
+  font-weight: 900;
+  cursor: pointer;
+  /* margin-top: 2px; */
+  margin-left: 10px;
+  float: left;
+  text-decoration: none;
+}
+
+#myButton {
+  border-radius: 5px;
+  font-weight: 900;
+  cursor: pointer;
+  /* margin-top: 2px; */
+  margin-left: 10px;
+  float: left;
+  text-decoration: none;
+}
+
+.login {
+  margin-top: 40px;
+  margin-right: 0px;
+  margin-left: 500px;
+  margin-bottom: 0px;
+}
+
+fieldset {
+  width: 300px;
+  padding: 70px;
+  border-radius: 5px;
+  background-color: rgb(244, 237, 246);
+}
+.logheader {
+  margin-left: 560px;
+  color: blueviolet;
+}
+
+#loginbtn {
+  border-radius: 5px;
+  width: 146px;
+  background-color: rgb(48, 48, 136);
+  color: white;
+  font-weight: bold;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+.item {
+  margin-bottom: 5px;
+  width: 90px;
+  margin-left: -16px;
+  border: 2px;
+  height: 65px;
+  margin-top: 10px;
+}
+
+th,
+td {
+  border: 1px solid black; /* Adds separating border lines */
+  padding: 8px;
+}
+
+h1,
+h3 {
+  text-align: center;
+  text-decoration: underline;
+}
+.mission {
+  text-align: center;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+#togglePassword {
+  font-weight: bold;
+  background-color: white;
+  border-radius: 5px;
+}
+.welcome {
+  max-width: max-content;
+}
