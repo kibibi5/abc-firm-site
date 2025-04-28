@@ -62,7 +62,7 @@ input {
 .login {
   margin-top: 40px;
   margin-right: 0px;
-  margin-left: 500px;
+  margin-left: 50px;
   margin-bottom: 0px;
 }
 
@@ -73,7 +73,7 @@ fieldset {
   background-color: rgb(244, 237, 246);
 }
 .logheader {
-  margin-left: 560px;
+  margin-left: 50px;
   color: blueviolet;
 }
 
